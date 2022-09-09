@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    vertical-align: text-bottom;
+}
+
+.item2 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+    vertical-align: text-bottom;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.middlegrid {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 275px 275px;
+    column-gap: 250px;
+    row-gap: 20px;
+    background-color: gray;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.name:hover {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 19px;
+    color: white;
+}
+
+.title:hover {
+    font-size: 25px;
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+.bottom-grid {
+    display: flex;
+}
+
+.title2 {
+    font-size: 24px;
+    margin-left: 400px;
+}
+
+.soft {
+    margin-left: 375px;
+    border: 1px solid grey;
+    padding: 15px;
+
+}
+
+.soft:hover {
+    background-color: blueviolet;
+}
+
+.tech {
+    margin-left: 379px;
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.tech:hover {
+    background-color: crimson;
+}
+
+.hobbies {
+    margin-left: 379px;
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.hobbies:hover {
+    background-color: gold;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 250px;
+    grid-template-rows: 275px;
+    column-gap: 250px;
+    row-gap: 20px;
+    background-color: gray;
+}
